@@ -1,0 +1,69 @@
+{
+  "model": "fusion_3way_gate",
+  "text_model": "distilroberta-base",
+  "image_model": "resnet50",
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2_ocr_clean",
+  "max_len": 256,
+  "img_size": 224,
+  "batch_size": 8,
+  "epochs": 6,
+  "seed": 42,
+  "schedule": {
+    "warmup_epochs_freeze_img": 2,
+    "unfreeze_layer4_at": 3,
+    "lr_text": 2e-05,
+    "lr_fusion": 0.0001,
+    "lr_img": 1e-05,
+    "weight_decay": 0.01
+  },
+  "best_ckpt": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\best.pt",
+  "best_val_macro_f1": 0.8626522578728462,
+  "test": {
+    "loss": 0.30623855765577385,
+    "acc": 0.8865619546247818,
+    "macro_f1": 0.8862501488872396,
+    "roc_auc": 0.9416680921776122,
+    "avg_precision": 0.9407455174306588,
+    "confusion": {
+      "tn": 269,
+      "fp": 33,
+      "fn": 32,
+      "tp": 239
+    }
+  },
+  "gate_means": {
+    "mean_gate_all": {
+      "post": 0.5701145083492339,
+      "image": 0.31659640144251194,
+      "ocr": 0.11328908810180727
+    },
+    "mean_gate_has_ocr_1": {
+      "post": 0.46102182185592283,
+      "image": 0.22538084356825133,
+      "ocr": 0.313597330832539
+    },
+    "mean_gate_has_ocr_0": {
+      "post": 0.6318144703823361,
+      "image": 0.36818552843697083,
+      "ocr": 0.0
+    },
+    "n_test": 573,
+    "n_has_ocr_1": 207,
+    "n_has_ocr_0": 366
+  },
+  "artifacts": {
+    "history_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\history.json",
+    "results_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\results.json",
+    "loss_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\curve_loss.png",
+    "acc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\curve_accuracy.png",
+    "f1_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\curve_macro_f1.png",
+    "roc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\roc_curve.png",
+    "pr_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\pr_curve.png",
+    "confusion_matrix": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\confusion_matrix.png",
+    "prob_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\prob_hist.png",
+    "calibration": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\calibration.png",
+    "gate_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\gate_hist.png",
+    "gate_means_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\gate_means.json",
+    "gate_weights_test_jsonl": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_3way_gate_final_dataset_2\\gate_weights_test.jsonl"
+  }
+}

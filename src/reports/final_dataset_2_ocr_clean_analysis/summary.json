@@ -1,0 +1,950 @@
+{
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2_ocr_clean",
+  "splits": {
+    "train": {
+      "records": 4562,
+      "label_counts": {
+        "1": 2157,
+        "0": 2405
+      },
+      "missing_images": 0,
+      "missing_images_pct": 0.0,
+      "duplicate_ids_within_split": 0,
+      "duplicate_texts_within_split": 25,
+      "text_len_min": 30,
+      "text_len_p10": 45,
+      "text_len_median": 157,
+      "text_len_p90": 873,
+      "text_len_max": 30894,
+      "ocr_nonempty_pct": 43.906181499342395,
+      "ocr_len_min": 0,
+      "ocr_len_p10": 0,
+      "ocr_len_median": 0,
+      "ocr_len_p90": 129,
+      "ocr_len_max": 2000,
+      "img_bytes_min": 10031,
+      "img_bytes_p10": 38789,
+      "img_bytes_median": 107893,
+      "img_bytes_p90": 511872,
+      "img_bytes_max": 10477504,
+      "top_source_tags": [
+        [
+          "depression",
+          303
+        ],
+        [
+          "nature",
+          228
+        ],
+        [
+          "photography",
+          226
+        ],
+        [
+          "depressed",
+          215
+        ],
+        [
+          "depressive",
+          197
+        ],
+        [
+          "books",
+          193
+        ],
+        [
+          "drawing",
+          192
+        ],
+        [
+          "travel",
+          191
+        ],
+        [
+          "pets",
+          189
+        ],
+        [
+          "fitness",
+          160
+        ]
+      ],
+      "post_types": [
+        [
+          "text",
+          3863
+        ],
+        [
+          "photo",
+          609
+        ],
+        [
+          "link",
+          86
+        ],
+        [
+          "audio",
+          3
+        ],
+        [
+          "video",
+          1
+        ]
+      ],
+      "image_extensions": [
+        [
+          ".jpg",
+          3313
+        ],
+        [
+          ".png",
+          796
+        ],
+        [
+          ".gif",
+          377
+        ],
+        [
+          ".webp",
+          76
+        ]
+      ],
+      "label_by_source": {
+        "isolation": {
+          "1": 89
+        },
+        "nature": {
+          "0": 228
+        },
+        "fitness": {
+          "0": 160
+        },
+        "alone": {
+          "1": 106
+        },
+        "drawing": {
+          "0": 192
+        },
+        "mentalhealth": {
+          "1": 125
+        },
+        "pets": {
+          "0": 189
+        },
+        "sadness": {
+          "1": 98
+        },
+        "cat": {
+          "0": 130
+        },
+        "burnout": {
+          "1": 116
+        },
+        "travel": {
+          "0": 191
+        },
+        "books": {
+          "0": 193
+        },
+        "depression": {
+          "1": 303
+        },
+        "worthless": {
+          "1": 77
+        },
+        "makeup": {
+          "0": 15
+        },
+        "depressive": {
+          "1": 197
+        },
+        "photography": {
+          "0": 226
+        },
+        "music": {
+          "0": 16
+        },
+        "fashion": {
+          "0": 84
+        },
+        "movies": {
+          "0": 157
+        },
+        "coffee": {
+          "0": 153
+        },
+        "exhausted": {
+          "1": 82
+        },
+        "depressed": {
+          "1": 215
+        },
+        "food": {
+          "0": 94
+        },
+        "illustration": {
+          "0": 41
+        },
+        "art": {
+          "0": 97
+        },
+        "empty": {
+          "1": 85
+        },
+        "mental health": {
+          "1": 137
+        },
+        "sad": {
+          "1": 145
+        },
+        "design": {
+          "0": 87
+        },
+        "dog": {
+          "0": 133
+        },
+        "poetry": {
+          "0": 19
+        },
+        "tired": {
+          "1": 136
+        },
+        "numb": {
+          "1": 75
+        },
+        "lonely": {
+          "1": 100
+        },
+        "hopeless": {
+          "1": 71
+        }
+      },
+      "label_by_post_type": {
+        "text": {
+          "1": 1946,
+          "0": 1917
+        },
+        "photo": {
+          "1": 127,
+          "0": 482
+        },
+        "audio": {
+          "1": 3
+        },
+        "link": {
+          "1": 80,
+          "0": 6
+        },
+        "video": {
+          "1": 1
+        }
+      }
+    },
+    "val": {
+      "records": 569,
+      "label_counts": {
+        "0": 300,
+        "1": 269
+      },
+      "missing_images": 0,
+      "missing_images_pct": 0.0,
+      "duplicate_ids_within_split": 0,
+      "duplicate_texts_within_split": 0,
+      "text_len_min": 30,
+      "text_len_p10": 43,
+      "text_len_median": 155,
+      "text_len_p90": 926,
+      "text_len_max": 9412,
+      "ocr_nonempty_pct": 43.58523725834798,
+      "ocr_len_min": 0,
+      "ocr_len_p10": 0,
+      "ocr_len_median": 0,
+      "ocr_len_p90": 134,
+      "ocr_len_max": 1117,
+      "img_bytes_min": 11338,
+      "img_bytes_p10": 40328,
+      "img_bytes_median": 108346,
+      "img_bytes_p90": 485466,
+      "img_bytes_max": 9867719,
+      "top_source_tags": [
+        [
+          "depression",
+          36
+        ],
+        [
+          "depressed",
+          34
+        ],
+        [
+          "depressive",
+          32
+        ],
+        [
+          "photography",
+          27
+        ],
+        [
+          "coffee",
+          26
+        ],
+        [
+          "nature",
+          26
+        ],
+        [
+          "pets",
+          25
+        ],
+        [
+          "travel",
+          24
+        ],
+        [
+          "books",
+          22
+        ],
+        [
+          "drawing",
+          21
+        ]
+      ],
+      "post_types": [
+        [
+          "text",
+          470
+        ],
+        [
+          "photo",
+          89
+        ],
+        [
+          "link",
+          10
+        ]
+      ],
+      "image_extensions": [
+        [
+          ".jpg",
+          424
+        ],
+        [
+          ".png",
+          98
+        ],
+        [
+          ".gif",
+          42
+        ],
+        [
+          ".webp",
+          5
+        ]
+      ],
+      "label_by_source": {
+        "coffee": {
+          "0": 26
+        },
+        "sadness": {
+          "1": 12
+        },
+        "art": {
+          "0": 17
+        },
+        "fitness": {
+          "0": 14
+        },
+        "design": {
+          "0": 18
+        },
+        "worthless": {
+          "1": 8
+        },
+        "pets": {
+          "0": 25
+        },
+        "empty": {
+          "1": 14
+        },
+        "burnout": {
+          "1": 16
+        },
+        "movies": {
+          "0": 19
+        },
+        "depressed": {
+          "1": 34
+        },
+        "travel": {
+          "0": 24
+        },
+        "depression": {
+          "1": 36
+        },
+        "mental health": {
+          "1": 8
+        },
+        "mentalhealth": {
+          "1": 17
+        },
+        "numb": {
+          "1": 10
+        },
+        "fashion": {
+          "0": 12
+        },
+        "sad": {
+          "1": 19
+        },
+        "cat": {
+          "0": 14
+        },
+        "tired": {
+          "1": 16
+        },
+        "nature": {
+          "0": 26
+        },
+        "lonely": {
+          "1": 12
+        },
+        "illustration": {
+          "0": 7
+        },
+        "photography": {
+          "0": 27
+        },
+        "food": {
+          "0": 12
+        },
+        "depressive": {
+          "1": 32
+        },
+        "drawing": {
+          "0": 21
+        },
+        "isolation": {
+          "1": 10
+        },
+        "alone": {
+          "1": 8
+        },
+        "books": {
+          "0": 22
+        },
+        "exhausted": {
+          "1": 8
+        },
+        "poetry": {
+          "0": 2
+        },
+        "hopeless": {
+          "1": 9
+        },
+        "dog": {
+          "0": 11
+        },
+        "music": {
+          "0": 2
+        },
+        "makeup": {
+          "0": 1
+        }
+      },
+      "label_by_post_type": {
+        "text": {
+          "0": 227,
+          "1": 243
+        },
+        "photo": {
+          "0": 72,
+          "1": 17
+        },
+        "link": {
+          "1": 9,
+          "0": 1
+        }
+      }
+    },
+    "test": {
+      "records": 573,
+      "label_counts": {
+        "1": 271,
+        "0": 302
+      },
+      "missing_images": 0,
+      "missing_images_pct": 0.0,
+      "duplicate_ids_within_split": 0,
+      "duplicate_texts_within_split": 1,
+      "text_len_min": 31,
+      "text_len_p10": 47,
+      "text_len_median": 151,
+      "text_len_p90": 739,
+      "text_len_max": 12204,
+      "ocr_nonempty_pct": 43.97905759162304,
+      "ocr_len_min": 0,
+      "ocr_len_p10": 0,
+      "ocr_len_median": 0,
+      "ocr_len_p90": 116,
+      "ocr_len_max": 2000,
+      "img_bytes_min": 11658,
+      "img_bytes_p10": 39404,
+      "img_bytes_median": 110214,
+      "img_bytes_p90": 587871,
+      "img_bytes_max": 9883115,
+      "top_source_tags": [
+        [
+          "depressed",
+          32
+        ],
+        [
+          "photography",
+          27
+        ],
+        [
+          "drawing",
+          27
+        ],
+        [
+          "nature",
+          26
+        ],
+        [
+          "depression",
+          26
+        ],
+        [
+          "travel",
+          25
+        ],
+        [
+          "fitness",
+          24
+        ],
+        [
+          "art",
+          23
+        ],
+        [
+          "books",
+          23
+        ],
+        [
+          "pets",
+          23
+        ]
+      ],
+      "post_types": [
+        [
+          "text",
+          487
+        ],
+        [
+          "photo",
+          72
+        ],
+        [
+          "link",
+          14
+        ]
+      ],
+      "image_extensions": [
+        [
+          ".jpg",
+          413
+        ],
+        [
+          ".png",
+          96
+        ],
+        [
+          ".gif",
+          58
+        ],
+        [
+          ".webp",
+          6
+        ]
+      ],
+      "label_by_source": {
+        "alone": {
+          "1": 10
+        },
+        "nature": {
+          "0": 26
+        },
+        "fitness": {
+          "0": 24
+        },
+        "food": {
+          "0": 14
+        },
+        "photography": {
+          "0": 27
+        },
+        "hopeless": {
+          "1": 12
+        },
+        "art": {
+          "0": 23
+        },
+        "mentalhealth": {
+          "1": 16
+        },
+        "coffee": {
+          "0": 20
+        },
+        "books": {
+          "0": 23
+        },
+        "depression": {
+          "1": 26
+        },
+        "lonely": {
+          "1": 20
+        },
+        "burnout": {
+          "1": 15
+        },
+        "numb": {
+          "1": 9
+        },
+        "cat": {
+          "0": 13
+        },
+        "sadness": {
+          "1": 12
+        },
+        "travel": {
+          "0": 25
+        },
+        "pets": {
+          "0": 23
+        },
+        "tired": {
+          "1": 20
+        },
+        "dog": {
+          "0": 13
+        },
+        "drawing": {
+          "0": 27
+        },
+        "depressed": {
+          "1": 32
+        },
+        "empty": {
+          "1": 9
+        },
+        "movies": {
+          "0": 22
+        },
+        "sad": {
+          "1": 14
+        },
+        "poetry": {
+          "0": 2
+        },
+        "music": {
+          "0": 1
+        },
+        "exhausted": {
+          "1": 16
+        },
+        "fashion": {
+          "0": 6
+        },
+        "design": {
+          "0": 5
+        },
+        "depressive": {
+          "1": 23
+        },
+        "isolation": {
+          "1": 15
+        },
+        "mental health": {
+          "1": 12
+        },
+        "worthless": {
+          "1": 10
+        },
+        "illustration": {
+          "0": 6
+        },
+        "makeup": {
+          "0": 2
+        }
+      },
+      "label_by_post_type": {
+        "text": {
+          "1": 250,
+          "0": 237
+        },
+        "photo": {
+          "0": 64,
+          "1": 8
+        },
+        "link": {
+          "1": 13,
+          "0": 1
+        }
+      }
+    },
+    "all": {
+      "records": 5704,
+      "label_counts": {
+        "1": 2697,
+        "0": 3007
+      },
+      "missing_images": 0,
+      "missing_images_pct": 0.0,
+      "duplicate_ids_within_split": 0,
+      "duplicate_texts_within_split": 43,
+      "text_len_min": 30,
+      "text_len_p10": 45,
+      "text_len_median": 157,
+      "text_len_p90": 867,
+      "text_len_max": 30894,
+      "ocr_nonempty_pct": 43.88148667601683,
+      "ocr_len_min": 0,
+      "ocr_len_p10": 0,
+      "ocr_len_median": 0,
+      "ocr_len_p90": 128,
+      "ocr_len_max": 2000,
+      "img_bytes_min": 10031,
+      "img_bytes_p10": 38997,
+      "img_bytes_median": 108439,
+      "img_bytes_p90": 511872,
+      "img_bytes_max": 10477504,
+      "top_source_tags": [
+        [
+          "depression",
+          365
+        ],
+        [
+          "depressed",
+          281
+        ],
+        [
+          "nature",
+          280
+        ],
+        [
+          "photography",
+          280
+        ],
+        [
+          "depressive",
+          252
+        ],
+        [
+          "drawing",
+          240
+        ],
+        [
+          "travel",
+          240
+        ],
+        [
+          "books",
+          238
+        ],
+        [
+          "pets",
+          237
+        ],
+        [
+          "coffee",
+          199
+        ]
+      ],
+      "post_types": [
+        [
+          "text",
+          4820
+        ],
+        [
+          "photo",
+          770
+        ],
+        [
+          "link",
+          110
+        ],
+        [
+          "audio",
+          3
+        ],
+        [
+          "video",
+          1
+        ]
+      ],
+      "image_extensions": [
+        [
+          ".jpg",
+          4150
+        ],
+        [
+          ".png",
+          990
+        ],
+        [
+          ".gif",
+          477
+        ],
+        [
+          ".webp",
+          87
+        ]
+      ],
+      "label_by_source": {
+        "isolation": {
+          "1": 114
+        },
+        "nature": {
+          "0": 280
+        },
+        "fitness": {
+          "0": 198
+        },
+        "alone": {
+          "1": 124
+        },
+        "drawing": {
+          "0": 240
+        },
+        "mentalhealth": {
+          "1": 158
+        },
+        "pets": {
+          "0": 237
+        },
+        "sadness": {
+          "1": 122
+        },
+        "cat": {
+          "0": 157
+        },
+        "burnout": {
+          "1": 147
+        },
+        "travel": {
+          "0": 240
+        },
+        "books": {
+          "0": 238
+        },
+        "depression": {
+          "1": 365
+        },
+        "worthless": {
+          "1": 95
+        },
+        "makeup": {
+          "0": 18
+        },
+        "depressive": {
+          "1": 252
+        },
+        "photography": {
+          "0": 280
+        },
+        "music": {
+          "0": 19
+        },
+        "fashion": {
+          "0": 102
+        },
+        "movies": {
+          "0": 198
+        },
+        "coffee": {
+          "0": 199
+        },
+        "exhausted": {
+          "1": 106
+        },
+        "depressed": {
+          "1": 281
+        },
+        "food": {
+          "0": 120
+        },
+        "illustration": {
+          "0": 54
+        },
+        "art": {
+          "0": 137
+        },
+        "empty": {
+          "1": 108
+        },
+        "mental health": {
+          "1": 157
+        },
+        "sad": {
+          "1": 178
+        },
+        "design": {
+          "0": 110
+        },
+        "dog": {
+          "0": 157
+        },
+        "poetry": {
+          "0": 23
+        },
+        "tired": {
+          "1": 172
+        },
+        "numb": {
+          "1": 94
+        },
+        "lonely": {
+          "1": 132
+        },
+        "hopeless": {
+          "1": 92
+        }
+      },
+      "label_by_post_type": {
+        "text": {
+          "1": 2439,
+          "0": 2381
+        },
+        "photo": {
+          "1": 152,
+          "0": 618
+        },
+        "audio": {
+          "1": 3
+        },
+        "link": {
+          "1": 102,
+          "0": 8
+        },
+        "video": {
+          "1": 1
+        }
+      }
+    }
+  },
+  "leakage": {
+    "id_overlap_counts": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "id_overlap_preview_first_50": {
+      "train_val": [],
+      "train_test": [],
+      "val_test": []
+    },
+    "normalized_text_overlap_counts": {
+      "train_val": 6,
+      "train_test": 11,
+      "val_test": 0
+    }
+  }
+}

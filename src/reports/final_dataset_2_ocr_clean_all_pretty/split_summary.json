@@ -1,0 +1,41 @@
+{
+  "train": {
+    "records": 4562,
+    "label_counts": {
+      "1": 2157,
+      "0": 2405
+    },
+    "label_pct": {
+      "1": 47.2818939061815,
+      "0": 52.7181060938185
+    },
+    "ocr_nonempty_count": 1696,
+    "ocr_nonempty_pct": 37.1766768960982
+  },
+  "val": {
+    "records": 569,
+    "label_counts": {
+      "0": 300,
+      "1": 269
+    },
+    "label_pct": {
+      "0": 52.72407732864675,
+      "1": 47.27592267135325
+    },
+    "ocr_nonempty_count": 203,
+    "ocr_nonempty_pct": 35.67662565905097
+  },
+  "test": {
+    "records": 573,
+    "label_counts": {
+      "1": 271,
+      "0": 302
+    },
+    "label_pct": {
+      "1": 47.294938917975564,
+      "0": 52.705061082024436
+    },
+    "ocr_nonempty_count": 207,
+    "ocr_nonempty_pct": 36.12565445026178
+  }
+}

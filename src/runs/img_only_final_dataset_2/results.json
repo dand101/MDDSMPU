@@ -1,0 +1,34 @@
+{
+  "arch": "resnet50",
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2",
+  "img_size": 224,
+  "batch_size": 32,
+  "epochs": 5,
+  "seed": 42,
+  "best_ckpt": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\best.pt",
+  "best_val_macro_f1": 0.7193018608717372,
+  "test": {
+    "loss": 0.6947508178664336,
+    "acc": 0.6963350785340314,
+    "macro_f1": 0.6913250773993809,
+    "roc_auc": 0.7660492167835586,
+    "avg_precision": 0.7675642449657445,
+    "confusion": {
+      "tn": 236,
+      "fp": 66,
+      "fn": 108,
+      "tp": 163
+    }
+  },
+  "artifacts": {
+    "history_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\history.json",
+    "loss_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\curve_loss.png",
+    "acc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\curve_accuracy.png",
+    "f1_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\curve_macro_f1.png",
+    "roc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\roc_curve.png",
+    "pr_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\pr_curve.png",
+    "confusion_matrix": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\confusion_matrix.png",
+    "prob_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\prob_hist.png",
+    "calibration": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\img_only_final_dataset_2\\calibration.png"
+  }
+}

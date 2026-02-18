@@ -1,0 +1,45 @@
+{
+  "text_model": "distilroberta-base",
+  "image_model": "resnet50",
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2_ocr_clean",
+  "max_len": 256,
+  "img_size": 224,
+  "batch_size": 12,
+  "epochs": 6,
+  "seed": 42,
+  "schedule": {
+    "warmup_epochs_freeze_img": 2,
+    "unfreeze_layer4_at": 3,
+    "lr_text": 2e-05,
+    "lr_fusion": 0.0001,
+    "lr_img": 1e-05,
+    "weight_decay": 0.01
+  },
+  "best_ckpt": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\best.pt",
+  "best_val_macro_f1": 0.8385060428849902,
+  "test": {
+    "loss": 0.32970815674640747,
+    "acc": 0.8621291448516579,
+    "macro_f1": 0.8603874374292562,
+    "roc_auc": 0.9376359326507178,
+    "avg_precision": 0.9378080955777881,
+    "confusion": {
+      "tn": 279,
+      "fp": 23,
+      "fn": 56,
+      "tp": 215
+    }
+  },
+  "artifacts": {
+    "history_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\history.json",
+    "results_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\results.json",
+    "loss_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\curve_loss.png",
+    "acc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\curve_accuracy.png",
+    "f1_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\curve_macro_f1.png",
+    "roc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\roc_curve.png",
+    "pr_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\pr_curve.png",
+    "confusion_matrix": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\confusion_matrix.png",
+    "prob_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\prob_hist.png",
+    "calibration": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_final_dataset_2_clean_text\\calibration.png"
+  }
+}

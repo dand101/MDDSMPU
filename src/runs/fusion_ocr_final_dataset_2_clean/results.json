@@ -1,0 +1,37 @@
+{
+  "text_model": "distilroberta-base",
+  "image_model": "resnet50",
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2_ocr_clean",
+  "max_len": 256,
+  "img_size": 224,
+  "batch_size": 8,
+  "epochs": 6,
+  "seed": 42,
+  "best_ckpt": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\best.pt",
+  "best_val_macro_f1": 0.8669005847953216,
+  "test": {
+    "loss": 0.3190972276461062,
+    "acc": 0.8638743455497382,
+    "macro_f1": 0.8623139294164037,
+    "roc_auc": 0.9417414041690076,
+    "avg_precision": 0.9427005168253799,
+    "confusion": {
+      "tn": 278,
+      "fp": 24,
+      "fn": 54,
+      "tp": 217
+    }
+  },
+  "artifacts": {
+    "history_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\history.json",
+    "results_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\results.json",
+    "loss_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\curve_loss.png",
+    "acc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\curve_accuracy.png",
+    "f1_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\curve_macro_f1.png",
+    "roc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\roc_curve.png",
+    "pr_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\pr_curve.png",
+    "confusion_matrix": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\confusion_matrix.png",
+    "prob_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\prob_hist.png",
+    "calibration": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\fusion_ocr_final_dataset_2_clean\\calibration.png"
+  }
+}

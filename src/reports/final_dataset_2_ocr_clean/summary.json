@@ -1,0 +1,74 @@
+{
+  "train": {
+    "records": 4562,
+    "label_distribution": {
+      "1": 2157,
+      "0": 2405
+    },
+    "text_len_median": 157.0,
+    "ocr_len_median": 0.0,
+    "ocr_present_pct": 43.906181499342395,
+    "image_present_pct": 100.0,
+    "multimodal_pct": 43.906181499342395,
+    "ocr_longer_than_text_pct": 7.672073651907058,
+    "ocr_text_length_ratio_median": 0.0,
+    "ocr_text_jaccard_median": 0.0,
+    "ocr_text_jaccard_p90": 0.12751677852348994,
+    "duplicate_ids_within_split": 0,
+    "duplicate_texts_within_split": 25
+  },
+  "val": {
+    "records": 569,
+    "label_distribution": {
+      "0": 300,
+      "1": 269
+    },
+    "text_len_median": 155,
+    "ocr_len_median": 0,
+    "ocr_present_pct": 43.58523725834798,
+    "image_present_pct": 100.0,
+    "multimodal_pct": 43.58523725834798,
+    "ocr_longer_than_text_pct": 7.73286467486819,
+    "ocr_text_length_ratio_median": 0.0,
+    "ocr_text_jaccard_median": 0.0,
+    "ocr_text_jaccard_p90": 0.14814814814814814,
+    "duplicate_ids_within_split": 0,
+    "duplicate_texts_within_split": 0
+  },
+  "test": {
+    "records": 573,
+    "label_distribution": {
+      "1": 271,
+      "0": 302
+    },
+    "text_len_median": 151,
+    "ocr_len_median": 0,
+    "ocr_present_pct": 43.97905759162304,
+    "image_present_pct": 100.0,
+    "multimodal_pct": 43.97905759162304,
+    "ocr_longer_than_text_pct": 6.282722513089006,
+    "ocr_text_length_ratio_median": 0.0,
+    "ocr_text_jaccard_median": 0.0,
+    "ocr_text_jaccard_p90": 0.125,
+    "duplicate_ids_within_split": 0,
+    "duplicate_texts_within_split": 1
+  },
+  "all": {
+    "records": 5704,
+    "label_distribution": {
+      "1": 2697,
+      "0": 3007
+    },
+    "text_len_median": 157.0,
+    "ocr_len_median": 0.0,
+    "ocr_present_pct": 43.88148667601683,
+    "image_present_pct": 100.0,
+    "multimodal_pct": 43.88148667601683,
+    "ocr_longer_than_text_pct": 7.538569424964937,
+    "ocr_text_length_ratio_median": 0.0,
+    "ocr_text_jaccard_median": 0.0,
+    "ocr_text_jaccard_p90": 0.13076923076923078,
+    "duplicate_ids_within_split": 0,
+    "duplicate_texts_within_split": 43
+  }
+}

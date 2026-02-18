@@ -1,0 +1,82 @@
+C:\Users\dando\Documents\GitHub\Project\Project\.venv\Scripts\python.exe C:\Users\dando\Documents\GitHub\Project\Project\src_new_3\dataset2.py
+
+=== Collecting tag 'depression' target=250 ===
+collect depression: 100%|██████████| 250/250 [06:41<00:00,  1.61s/post]
+collect depressed:   0%|          | 0/250 [00:00<?, ?post/s]depression: kept 250 | pages=90 | time=6.7 min
+
+=== Collecting tag 'depressed' target=250 ===
+collect depressed: 100%|██████████| 250/250 [07:47<00:00,  1.87s/post]
+collect depressive:   0%|          | 0/250 [00:00<?, ?post/s]depressed: kept 250 | pages=107 | time=7.8 min
+
+=== Collecting tag 'depressive' target=250 ===
+collect depressive: 100%|██████████| 250/250 [07:17<00:00,  1.75s/post]
+depressive: kept 250 | pages=98 | time=7.3 min
+
+=== Collecting tag 'mental health' target=80 ===
+collect mental health: 100%|██████████| 80/80 [01:49<00:00,  1.37s/post]
+collect mentalhealth:   0%|          | 0/80 [00:00<?, ?post/s]mental health: kept 80 | pages=25 | time=1.8 min
+
+=== Collecting tag 'mentalhealth' target=80 ===
+collect mentalhealth: 100%|██████████| 80/80 [00:30<00:00,  2.62post/s]
+collect sad:   0%|          | 0/90 [00:00<?, ?post/s]mentalhealth: kept 80 | pages=7 | time=0.5 min
+
+=== Collecting tag 'sad' target=90 ===
+collect sad: 100%|██████████| 90/90 [02:16<00:00,  1.52s/post]
+sad: kept 90 | pages=31 | time=2.3 min
+
+=== Collecting tag 'sadness' target=90 ===
+collect sadness: 100%|██████████| 90/90 [02:02<00:00,  1.37s/post]
+collect numb:   0%|          | 0/90 [00:00<?, ?post/s]sadness: kept 90 | pages=28 | time=2.0 min
+
+=== Collecting tag 'numb' target=90 ===
+collect numb: 100%|██████████| 90/90 [02:43<00:00,  1.82s/post]
+numb: kept 90 | pages=37 | time=2.7 min
+
+=== Collecting tag 'empty' target=90 ===
+collect empty: 100%|██████████| 90/90 [01:37<00:00,  1.08s/post]
+collect lonely:   0%|          | 0/90 [00:00<?, ?post/s]empty: kept 90 | pages=22 | time=1.6 min
+
+=== Collecting tag 'lonely' target=90 ===
+collect lonely: 100%|██████████| 90/90 [02:28<00:00,  1.65s/post]
+lonely: kept 90 | pages=34 | time=2.5 min
+
+=== Collecting tag 'alone' target=90 ===
+collect alone: 100%|██████████| 90/90 [01:32<00:00,  1.02s/post]
+collect isolation:   0%|          | 0/90 [00:00<?, ?post/s]alone: kept 90 | pages=21 | time=1.5 min
+[INFO] API calls so far: 500 (see data/depressed_full\state.json)
+
+=== Collecting tag 'isolation' target=90 ===
+collect isolation: 100%|██████████| 90/90 [01:46<00:00,  1.18s/post]
+collect tired:   0%|          | 0/90 [00:00<?, ?post/s]isolation: kept 90 | pages=24 | time=1.8 min
+
+=== Collecting tag 'tired' target=90 ===
+collect tired: 100%|██████████| 90/90 [01:58<00:00,  1.31s/post]
+tired: kept 90 | pages=27 | time=2.0 min
+collect exhausted:   0%|          | 0/90 [00:00<?, ?post/s]
+=== Collecting tag 'exhausted' target=90 ===
+collect exhausted: 100%|██████████| 90/90 [01:23<00:00,  1.08post/s]
+collect burnout:   0%|          | 0/90 [00:00<?, ?post/s]exhausted: kept 90 | pages=19 | time=1.4 min
+
+=== Collecting tag 'burnout' target=90 ===
+collect burnout: 100%|██████████| 90/90 [01:45<00:00,  1.17s/post]
+collect hopeless:   0%|          | 0/90 [00:00<?, ?post/s]burnout: kept 90 | pages=24 | time=1.8 min
+
+=== Collecting tag 'hopeless' target=90 ===
+collect hopeless: 100%|██████████| 90/90 [02:10<00:00,  1.45s/post]
+collect worthless:   0%|          | 0/90 [00:00<?, ?post/s]hopeless: kept 90 | pages=30 | time=2.2 min
+
+=== Collecting tag 'worthless' target=90 ===
+collect worthless: 100%|██████████| 90/90 [02:29<00:00,  1.66s/post]
+worthless: kept 90 | pages=34 | time=2.5 min
+downloading: 100%|██████████| 1990/1990 [03:56<00:00,  8.41img/s]
+
+--- DONE ---
+FINAL kept with downloaded images: 1940
+Meta: data/depressed_full\meta.jsonl
+Images: data/depressed_full\images
+API calls total: 658
+Downloads total: 1940
+By-tag kept: {'depression': 250, 'depressed': 250, 'depressive': 250, 'mental health': 80, 'mentalhealth': 80, 'sad': 90, 'sadness': 90, 'numb': 90, 'empty': 90, 'lonely': 90, 'alone': 90, 'isolation': 90, 'tired': 90, 'exhausted': 90, 'burnout': 90, 'hopeless': 90, 'worthless': 90}
+By-tag API calls: {'depression': 90, 'depressed': 107, 'depressive': 98, 'mental health': 25, 'mentalhealth': 7, 'sad': 31, 'sadness': 28, 'numb': 37, 'empty': 22, 'lonely': 34, 'alone': 21, 'isolation': 24, 'tired': 27, 'exhausted': 19, 'burnout': 24, 'hopeless': 30, 'worthless': 34}
+
+Process finished with exit code 0

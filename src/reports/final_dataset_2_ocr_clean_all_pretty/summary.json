@@ -1,0 +1,54 @@
+{
+  "records": 5704,
+  "label_counts": {
+    "1": 2697,
+    "0": 3007
+  },
+  "label_pct": {
+    "1": 47.28260869565217,
+    "0": 52.71739130434783
+  },
+  "ocr_nonempty_count": 2106,
+  "ocr_nonempty_pct": 36.92145862552594,
+  "ocr_len_nonempty_stats": {
+    "count": 2106,
+    "min": 8,
+    "max": 400,
+    "mean": 106.52659069325736,
+    "std": 116.02607815660761,
+    "p10": 13.0,
+    "median": 60.0,
+    "p90": 317.5
+  },
+  "post_text_len_stats": {
+    "count": 5704,
+    "min": 30,
+    "max": 30894,
+    "mean": 416.2100280504909,
+    "std": 987.0646680454355,
+    "p10": 45.0,
+    "median": 157.0,
+    "p90": 867.6999999999998
+  },
+  "post_text_clean_len_stats": {
+    "count": 5704,
+    "min": 11,
+    "max": 30888,
+    "mean": 420.3225806451613,
+    "std": 987.8810943280511,
+    "p10": 47.0,
+    "median": 159.0,
+    "p90": 876.0999999999995
+  },
+  "post_len_cap_for_plot": 5000,
+  "post_len_above_cap_count": 51,
+  "post_len_above_cap_pct": 0.894109396914446,
+  "duplicate_ids_within_all": 0,
+  "duplicate_text_clean_within_all": 53,
+  "image_extension_counts": {
+    ".jpg": 4150,
+    ".gif": 477,
+    ".webp": 87,
+    ".png": 990
+  }
+}

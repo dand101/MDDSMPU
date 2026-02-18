@@ -1,0 +1,34 @@
+{
+  "model_name": "distilroberta-base",
+  "data_dir": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\data\\final_dataset_2_ocr_clean",
+  "max_len": 256,
+  "batch_size": 16,
+  "epochs": 5,
+  "seed": 42,
+  "best_ckpt": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\best.pt",
+  "best_val_macro_f1": 0.8552072989076465,
+  "test": {
+    "loss": 0.3237192290095551,
+    "acc": 0.8656195462478184,
+    "macro_f1": 0.8648936658858114,
+    "roc_auc": 0.9345934850076979,
+    "avg_precision": 0.9344575144463787,
+    "confusion": {
+      "tn": 269,
+      "fp": 33,
+      "fn": 44,
+      "tp": 227
+    }
+  },
+  "artifacts": {
+    "history_json": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\history.json",
+    "loss_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\curve_loss.png",
+    "acc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\curve_accuracy.png",
+    "f1_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\curve_macro_f1.png",
+    "roc_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\roc_curve.png",
+    "pr_curve": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\pr_curve.png",
+    "confusion_matrix": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\confusion_matrix.png",
+    "prob_hist": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\prob_hist.png",
+    "calibration": "C:\\Users\\dando\\Documents\\GitHub\\Project\\Project\\src_new_3\\runs\\text_only_clean_final_dataset_2\\calibration.png"
+  }
+}
