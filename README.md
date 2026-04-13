@@ -58,7 +58,7 @@ The dataset is constructed to preserve natural user expression while enabling co
 
 ### Multimodal Fusion Model
 
-![Fusion Architecture](docs/images/architecture.png)
+![Fusion Architecture](docs/images/fusion_architecture.png)
 
 The core contribution of this project is a multimodal fusion framework that integrates textual, visual, and OCR-derived signals into a single prediction model. Each modality is first processed independently to extract high-level representations, which are then combined at the feature level.
 
